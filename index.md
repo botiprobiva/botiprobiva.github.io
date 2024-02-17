@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Боты и сервисы для пробива / деанона информации."
+title: Боты и сервисы для пробива / деанона информации.
 ---
 
 ![Swiss Alps](https://raw.githubusercontent.com/botiprobiva/botiprobiva.github.io/main/images/botiprobiva_logo.jpg)
