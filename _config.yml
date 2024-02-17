@@ -20,7 +20,7 @@ theme: minima
 #remote_theme: jekyll/minima
 
 plugins:
-  - jekyll-seo-tag
+#   - jekyll-seo-tag
 
 # Theme-specific settings
 
