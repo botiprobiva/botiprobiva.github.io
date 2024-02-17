@@ -5,8 +5,8 @@ author:
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: > 
-Боты пробива это уникальные инструменты для поиска информации о человеке по номеру телефона, ФИО, авто, паролю и многим другим параметрам.
+# description: > 
+# Боты пробива это уникальные инструменты для поиска информации о человеке по номеру телефона, ФИО, авто, паролю и многим другим параметрам.
 
 
 # Build settings
