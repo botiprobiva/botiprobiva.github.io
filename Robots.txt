@@ -1,0 +1,3 @@
+Sitemap: https://botiprobiva.info/sitemap.xml
+User-agent: *
+Allow: 
