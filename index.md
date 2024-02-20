@@ -3,7 +3,7 @@ layout: home
 title: Боты и сервисы для пробива / деанона информации.
 ---
 
-![Swiss Alps](https://raw.githubusercontent.com/botiprobiva/botiprobiva.github.io/main/images/botiprobiva_logo.webp)
+![Swiss Alps](/botiprobiva_logo.webp)
 
 
 **Внимание! Перед тем как читать дальше, ознакомьтесь с этой информацией 👇**
