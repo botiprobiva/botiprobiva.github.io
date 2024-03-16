@@ -1,56 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
     <url>
-        <loc>https://botiprobiva.info</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/leakedinfobot</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/leakedinfobot</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/usersbox</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/usersbox</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/quick-osint</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/quick-osint</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/zernerda</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/zernerda</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/HimeraSearch</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/HimeraSearch</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/LeakOSINT</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/LeakOSINT</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/blackat-search</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/blackat-search</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://botiprobiva.info/smartsearchbot</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://botiprobiva.xyz/smartsearchbot</loc>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
