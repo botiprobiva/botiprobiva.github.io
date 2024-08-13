@@ -151,6 +151,8 @@ _Несанкционированный сбор личной информаци
 
 # Поиск информации по другим соц-сетям:
 
+[DiscordBot](https://bit.ly/46Io3KO) — можно получить информацию о Discord аккаунтах, аватары, сервера, друзья и никнеймы.
+
 [InstaBot](https://bit.ly/3iQPi0U) — скачивает любые медиафайлы из Instagram.
 
 [SaveYoutubeBot](https://t.me/SaveYoutubeBot) — ищет и скачивает ролики из YouTube.
