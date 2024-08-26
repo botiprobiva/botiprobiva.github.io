@@ -1,3 +1,3 @@
-Sitemap: https://botiprobiva.xyz/sitemap.xml
+Sitemap: https://botiprobiva.xyz/ssitemap.xml
 User-agent: *
 Allow: /
