@@ -8,7 +8,11 @@ title: botiprobiva
 # description: > 
 # Боты пробива это уникальные инструменты для поиска информации о человеке по номеру телефона, ФИО, авто, паролю и многим другим параметрам.
 
+#
 url: "https://botiprobiva.xyz"
+
+#
+baseurl: "/"
 
 # Build settings
 
