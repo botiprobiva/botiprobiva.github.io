@@ -5,17 +5,16 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+        {%- if site.author %}
+          <ul class="contact-list">
+            {% if site.author.name -%}
+              <li class="p-name">{{ site.author.name | escape }}</li>
+            {% endif -%}
+            {% if site.author.email -%}
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            {%- endif %}
+          </ul>
+        {%- endif %}
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
@@ -25,8 +24,22 @@
     <div class="social-links">
       {%- include social.html -%}
     </div>
-<div class="footer-bottom">
-  &copy; {{ "now" | date: "%Y" }} Все права защищены двойным VPN и шапкой из фольги.
-</div>
+
+    {%- assign phrases = 
+      "Все права вроде как защищены. Если что — я вас не знаю.,
+      Все права защищены двойным VPN и шапкой из фольги.,
+      Логов нет. Скрипт сам себя удалил. Я уже сменил MAC-адрес.,
+      Доступ по SSH закрыт, но ты пытайся.,
+      Этот сайт не существует. Вы ничего не видели.,
+      Всё защищено. Почти. Наверное. Кто проверит — тот узнает.,
+      Права защищены. Кто, кем и от кого — вопрос философский.,
+      Этот текст самоуничтожится через 5 секунд... или нет." 
+      | split: "," -%}
+
+    {%- assign index = site.time | date: "%s" | modulo: phrases.size -%}
+    <div class="footer-bottom">
+      &copy; {{ "now" | date: "%Y" }} {{ phrases[index] | strip }}
+    </div>
+
   </div>
 </footer>
