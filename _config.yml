@@ -27,6 +27,7 @@ theme: minima
 plugins:
    - jekyll-seo-tag
    - jekyll-sitemap
+   - jekyll-last-modified-at
   
 
 # Theme-specific settings
