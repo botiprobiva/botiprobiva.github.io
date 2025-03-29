@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ '/' | relative_url }}"></data>
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
@@ -25,21 +25,8 @@
       {%- include social.html -%}
     </div>
 
-    {%- assign phrases = 
-      "Все права вроде как защищены. Если что — я вас не знаю.||
-      Все права защищены двойным VPN и шапкой из фольги.||
-      Логов нет. Скрипт сам себя удалил. Я уже сменил MAC-адрес.||
-      Доступ по SSH закрыт, но ты пытайся.||
-      Этот сайт не существует. Вы ничего не видели.||
-      Всё защищено. Почти. Наверное. Кто проверит — тот узнает.||
-      Права защищены. Кто, кем и от кого — вопрос философский.||
-      Этот текст самоуничтожится через 5 секунд... или нет."
-      | split: "||" -%}
-
-    {%- assign index = site.time | date: "%s" | modulo: phrases.size -%}
-
     <div class="footer-bottom">
-      &copy; {{ "now" | date: "%Y" }} {{ phrases[index] | strip }}
+     &copy; {{ "now" | date: "%Y" }} Все права защищены двойным VPN и шапкой из фольги.
     </div>
 
   </div>
