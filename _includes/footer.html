@@ -1,39 +1,39 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class=\"site-footer h-card\">
+  <data class=\"u-url\" href=\"{{ \"/\" | relative_url }}\"></data>
 
-  <div class="wrapper">
+  <div class=\"wrapper\">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
+    <div class=\"footer-col-wrapper\">
+      <div class=\"footer-col\">
         {%- if site.author %}
-          <ul class="contact-list">
+          <ul class=\"contact-list\">
             {% if site.author.name -%}
-              <li class="p-name">{{ site.author.name | escape }}</li>
+              <li class=\"p-name\">{{ site.author.name | escape }}</li>
             {% endif -%}
             {% if site.author.email -%}
-              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+              <li><a class=\"u-email\" href=\"mailto:{{ site.author.email }}\">{{ site.author.email }}</a></li>
             {%- endif %}
           </ul>
         {%- endif %}
       </div>
-      <div class="footer-col">
+      <div class=\"footer-col\">
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
-    <div class="social-links">
+    <div class=\"social-links\">
       {%- include social.html -%}
     </div>
 
     {%- assign phrases = 
-      "Этот сайт работает на чём-то подозрительном. Подозреваю магию.||Если ты читаешь это — значит фаервол проспал.||Все совпадения с реальными IP случайны. Или нет.||Шифруемся как можем, но кофе остаётся открытым.||Права защищены... если ты умеешь читать hex.||Никаких трекеров. Только совесть и чуть-чуть паранойи.||Ошибка 418: Я — чайник. Но доступ ты всё равно не получишь.||Доверяй, но проверяй. А лучше не доверяй.||Это не баг — это фича. А фича зашифрована."
-      | split: "||" -%}
+      \"Этот сайт работает на чём-то подозрительном. Подозреваю магию.||Если ты читаешь это — значит фаервол проспал.||Все совпадения с реальными IP случайны. Или нет.||Шифруемся как можем, но кофе остаётся открытым.||Права защищены... если ты умеешь читать hex.||Никаких трекеров. Только совесть и чуть-чуть паранойи.||Ошибка 418: Я — чайник. Но доступ ты всё равно не получишь.||Доверяй, но проверяй. А лучше не доверяй.||Это не баг — это фича. А фича зашифрована.\"
+      | split: \"||\" -%}
 
-    {%- assign index = site.time | date: "%s" | modulo: phrases.size -%}
+    {%- assign index = site.time | date: \"%s\" | modulo: phrases.size -%}
 
-    <div class="footer-bottom-wrapper">
-      <div class="footer-bottom">
-        &copy; {{ "now" | date: "%Y" }} {{ phrases[index] | strip }}
+    <div class=\"footer-bottom-wrapper\">
+      <div class=\"footer-bottom\">
+        &copy; {{ \"now\" | date: \"%Y\" }} {{ phrases[index] | strip }}
       </div>
     </div>
 
