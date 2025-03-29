@@ -30,8 +30,11 @@
       | split: "||" -%}
 
     {%- assign index = site.time | date: "%s" | modulo: phrases.size -%}
-    <div class="footer-bottom">
-      &copy; {{ "now" | date: "%Y" }} {{ phrases[index] | strip }}
+
+    <div class="footer-bottom-wrapper">
+      <div class="footer-bottom">
+        &copy; {{ "now" | date: "%Y" }} {{ phrases[index] | strip }}
+      </div>
     </div>
 
   </div>
