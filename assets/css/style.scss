@@ -24,7 +24,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center; /* можно убрать, если не нужно по вертикали */
   margin-top: 20px;
+  clear: both;
 }
 
 .footer-bottom {
