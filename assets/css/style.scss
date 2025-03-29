@@ -19,3 +19,15 @@
 .feed-subscribe .svg-icon {
   padding: 5px 5px 2px 0;
 }
+
+.wrapper {
+  padding: 10px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center; /* вертикальное центрирование текста */
+  height: 100%;        /* занимает всю доступную высоту родителя */
+  font-size: 0.9em;
+  color: #888;
+}
